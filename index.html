@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="index.css" />
+    <title>Basketball Scoreboard</title>
+    <link href="https://fonts.cdnfonts.com/css/cursed-timer-ulil" rel="stylesheet">            
+  </head>
+  <body>
+    <div class="container">
+      <div class="team-score">
+            <h1 class="team-name" id="home-name">HOME</h1>
+        <div class="score-number-div" id="home-score"><h2 class="score-number" id="home-score-number">0</h2></div>
+        <div class="score-btn" id="home-btn">
+          <button class="btn" id="home-btn-1" onclick="add_1_point_home()">+1</button>
+          <button class="btn" id="home-btn-2" onclick="add_2_point_home()">+2</button>
+          <button class="btn" id="home-btn-3" onclick="add_3_point_home()">+3</button>
+        </div>
+      </div>
+      <div class="team-score">
+        
+            <h1 class="team-name" id="guest-name">GUEST</h1>
+       
+        <div class="score-number-div" id="guest-score"><h2 class="score-number" id="guest-score-number">0</h2></div>
+        <div class="score-btn" id="guest-btn">
+          <button class="btn" id="guest-btn-1" onclick="add_1_point_guest()">+1</button>
+          <button class="btn" id="guest-btn-2" onclick="add_2_point_guest()">+2</button>
+          <button class="btn" id="guest-btn-3" onclick="add_3_point_guest()">+3</button>
+        </div>
+      </div>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
